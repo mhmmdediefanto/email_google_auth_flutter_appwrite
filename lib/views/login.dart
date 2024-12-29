@@ -29,9 +29,14 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Image.asset(
+                      "images/logo_trip.png",
+                      height: 180,
+                      width: 180,
+                    ),
                     Text("Login",
                         style: GoogleFonts.workSans(
-                            fontSize: 50, fontWeight: FontWeight.w600)),
+                            fontSize: 30, fontWeight: FontWeight.w600)),
                     SizedBox(
                       height: 10,
                     ),
